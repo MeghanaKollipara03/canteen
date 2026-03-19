@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>College Canteen Register</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f2f2f2;
+text-align:center;
+margin-top:60px;
+}
+
+.container{
+width:350px;
+margin:auto;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+input{
+width:90%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+padding:10px 20px;
+background:#28a745;
+border:none;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#218838;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>College Canteen Registration</h2>
+
+<form method="POST" action="backend/register.php"></form>
+
+<input type="text" name="name" placeholder="Enter your name" required>
+
+<input type="email" name="email" placeholder="Enter your email" required>
+
+<input type="text" name="phone" placeholder="Enter phone number" required>
+
+<input type="password" name="password" placeholder="Enter password" required>
+
+<button type="submit">Register</button>
+
+</form>
+
+<br>
+
+<a href="login.html">Already have an account? Login</a>
+
+</div>
+
+</body>
+</html>
